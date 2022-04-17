@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cd-mini-project"
+version = "0.1.0"
+description = "none"
+authors = ["saxenabhishek <as7122000@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lark = "^1.1.2"
+tk = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = {version = "^22.3.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

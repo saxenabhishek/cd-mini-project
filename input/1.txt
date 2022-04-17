@@ -1,5 +1,4 @@
-
-c blue red yellow
+c blue red 
 fill { repeat 36 {
     f200 l60
 }}

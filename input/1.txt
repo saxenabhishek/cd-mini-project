@@ -1,4 +1,4 @@
-c blue red 
-fill { repeat 36 {
+c blue red
+fill { repeat 10 {
     f200 l60
 }}

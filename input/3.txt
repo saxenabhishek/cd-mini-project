@@ -1,0 +1,6 @@
+c red green
+fill {
+    repeat 13 {
+        f200 l170
+    }
+}

@@ -1,7 +1,9 @@
 from parser import Parser
 import turtle
 
-inputfile = "1.txt"
+num = input("write number of input file:")
+
+inputfile = f"{num}.txt"
 
 data = Parser(f"input/{inputfile}").read_all()
 
